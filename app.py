@@ -13,7 +13,7 @@ app.config['MYSQL_DATABASE_PASSWORD'] = 'archit'
 app.config['MYSQL_DATABASE_DB'] = 'BucketList'
 app.config['MYSQL_DATABASE_HOST'] = 'localhost'
 mysql.init_app(app)
-
+#
 
 @app.route('/')
 def main():
